@@ -222,13 +222,13 @@ body {
 
 .product__price {
     font-size: 16px;
-line-height: 19px;
-color: #F16D7F;
+    line-height: 19px;
+    color: #F16D7F;
 }
 
 .footer{
-background-color:  #222222;
-height: 341px;
+    background-color:  #222222;
+    height: 341px;
 }
 
 .footer__info {
