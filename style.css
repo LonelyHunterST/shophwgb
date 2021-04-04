@@ -261,3 +261,23 @@ body {
     text-align: center;    
     color: #FBFBFB;
 }
+
+.contacts {
+    background-image: url(..//hwgeekbrains/img/subscribe-background.jpg);
+    background-size: cover;
+}
+
+.copyright{
+    background-color:  #222222;
+    height: 79px;
+}
+.copyright__rights {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
