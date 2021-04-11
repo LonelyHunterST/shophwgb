@@ -54,7 +54,7 @@ body {
     margin: 0 33px 0 0;
 }
 
-.header__link {
+.header__registration {
     margin: 0 33px 0 0;
 }
 
@@ -155,25 +155,11 @@ body {
     width: 100%;
 }
 
-.product__button {
-    display: no;
+.products {
+    display: flex;
+    flex-direction: column;
 }
 
-.all-product__button{
-    margin-top: 48px;
-    font-size: 16px;
-    line-height: 19px;    
-    color: #F26376;
-    padding: 14.5px 38.5px  13.5px;
-    border: 1px solid #FF6A6A;
-    background-color: #fff;
-    margin-bottom: 109px;
-}
-
-.all-product__button:hover{
-    background-color:#FF6A6A;
-    color:#fff;
-}
 .products__title {
     font-size: 30px;
     line-height: 36px;
@@ -200,9 +186,16 @@ body {
     width: 360px;
 }
 
+.product__button {
+    position: relative;
+}
+
 .product__img {
     display: block;
 }
+
+
+
 
 .product__description {
     background: var(--gray-color);
@@ -229,7 +222,23 @@ body {
     line-height: 19px;
     color: #F16D7F;
 }
+.all-product__button{
+    align-self: center;
+    width: 211px;
+    margin-top: 48px;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #F26376;
+    padding: 14.5px 38.5px  13.5px;
+    border: 1px solid #FF6A6A;
+    background-color: #fff;
+    margin-bottom: 109px;
+}
 
+.all-product__button:hover{
+    background-color:#FF6A6A;
+    color:#fff;
+}
 .footer{
     background-color:  #222222;
     height: 341px;
@@ -246,7 +255,7 @@ body {
 }
 .footer__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -267,22 +276,158 @@ body {
 }
 
 .contacts {
+    height: 448px;
     background-image: url(..//hwgeekbrains/img/subscribe-background.jpg);
     background-size: cover;
+}
+.contacts__card {
+    display: block;
+    position: absolute;
+    padding-top: 86.6px;
+    padding-left: 328px;
+}
+
+.contacts__quote {
+    position: relative;
+    top: 50px;
+    left: -120px;
+    width: 359px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.contacts__subscribe {
+    position: relative;
+    left: 1500px;
+    top: 100px;
+    
+} 
+
+.contacts__subscription {
+    width: 551px;
+    height: 61px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+}
+
+.contacts__mail {
+    width: 323px;
+    height: 43px;
+    margin-top: 50px;
+    background: #E1E1E1;
+}
+
+.contacts__sub{
+    width: 100px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #E05C6E;
+    border-radius: 20px;
 }
 
 .copyright{
     background-color:  #222222;
     height: 79px;
 }
+
 .copyright__rights {
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
 }
 
-.copyright__social{
+
+.registration__stripe {
+    display: block;
+    width: 100%;
+    height: 148px;
+    background-color: #F8F3F4;
+    
+}
+
+.heading__registration { 
+    margin-left: 230px;
+    padding-top: 59px;   
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+.registration__main{
     display: flex;
-    justify-content: flex-end;
-    margin-right: ;
+}
+
+.registration__text__perks{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.registration__text{
+    width: 652px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+.registration__first-name {
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.registration__second-name{
+    width: 360px;
+    height: 45px; 
+}
+
+.registration__radio{
+    margin-top: 31.5px;
+}
+.form-login{
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px; 
+}
+
+.form-password{
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;  
+}
+
+.registration__list{
+    margin: 0;
+    list-style: none;
+}
+
+.perks__registration{
+    position: relative;
+    font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.perks__registration:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1200px-Light_green_check.svg.png);
+    background-size: 15px 15px;
+}
+
+.registration__join{
+    width: 167px;
+    height: 50px;
+    padding: 14.5px 38.5px  13.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#F16D7F;
 }
