@@ -55,14 +55,15 @@ body {
 }
 
 .header__registration {
-    margin: 0 33px 0 0;
+    
+    margin:  0 33px 0 0;
 }
 
 .brand {
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
     display: flex;
-    margin: 0 0 63px;
+    margin: 0 350px 63px;
 }
 
 .brand__title-container {
@@ -118,7 +119,7 @@ body {
     text-transform: uppercase;
 }
 
-.promotions__text{
+.promotions__text {
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
@@ -202,7 +203,7 @@ body {
     padding: 25px 29px 20px 17px;
 }
 
-.product__title{
+.product__title {
     font-size: 13px;
     line-height: 16px;
     color: #000000;
@@ -222,7 +223,7 @@ body {
     line-height: 19px;
     color: #F16D7F;
 }
-.all-product__button{
+.all-product__button {
     align-self: center;
     width: 211px;
     margin-top: 48px;
@@ -235,31 +236,31 @@ body {
     margin-bottom: 109px;
 }
 
-.all-product__button:hover{
+.all-product__button:hover {
     background-color:#FF6A6A;
     color:#fff;
 }
-.footer{
+.black-stripe{
     background-color:  #222222;
     height: 341px;
 }
 
-.footer__info {
+.black-stripe__info {
     width: 360px;
     margin-top: 103px;
 }
 
-.footer__img {
+.black-stripe__img {
     display: block;
     margin-left: 150px;
 }
-.footer__list {
+.black-stripe__list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.footer__title {
+.black-stripe__title {
     font-size: 19.96px;
     font-weight: normal;
     line-height: 24px;
@@ -267,7 +268,7 @@ body {
     color: #FBFBFB;
 } 
 
-.footer__text {
+.black-stripe__text {
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
@@ -280,6 +281,7 @@ body {
     background-image: url(..//hwgeekbrains/img/subscribe-background.jpg);
     background-size: cover;
 }
+
 .contacts__card {
     display: block;
     position: absolute;
@@ -321,7 +323,7 @@ body {
     background: #E1E1E1;
 }
 
-.contacts__sub{
+.contacts__sub {
     width: 100px;
     height: 50px;
     color: #FFFFFF;
@@ -329,7 +331,7 @@ body {
     border-radius: 20px;
 }
 
-.copyright{
+.copyright {
     background-color:  #222222;
     height: 79px;
 }
@@ -339,7 +341,6 @@ body {
     line-height: 19px;
     color: #FBFBFB;
 }
-
 
 .registration__stripe {
     display: block;
@@ -357,60 +358,65 @@ body {
     color: #F16D7F;
     text-transform: uppercase;
 }
-.registration__main{
+
+.registration__main {
     display: flex;
 }
 
-.registration__text__perks{
+.registration__text__perks {
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
 }
-.registration__text{
+
+.registration__text {
     width: 652px;
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
 }
+
 .registration__first-name {
     width: 360px;
     height: 45px;
     margin-bottom: 20px;
 }
 
-.registration__second-name{
+.registration__second-name {
     width: 360px;
     height: 45px; 
 }
 
-.registration__radio{
+.registration__radio {
     margin-top: 31.5px;
 }
+
 .form-login{
     width: 360px;
     height: 45px;
     margin-bottom: 20px; 
 }
 
-.form-password{
+.form-password {
     width: 360px;
     height: 45px;
     margin-bottom: 20px;  
 }
 
-.registration__list{
+.registration__list {
     margin: 0;
     list-style: none;
 }
 
-.perks__registration{
+.perks__registration {
     position: relative;
     font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
+
 .perks__registration:before {
     content: '';
     width: 15px;
@@ -423,11 +429,14 @@ color: #000000;
     background-size: 15px 15px;
 }
 
-.registration__join{
+.registration__join {
     width: 167px;
     height: 50px;
     padding: 14.5px 38.5px  13.5px;
     text-transform: uppercase;
     color: #FFFFFF;
     background-color:#F16D7F;
+}
+.registration__radio {
+    margin-bottom: 33px;
 }
