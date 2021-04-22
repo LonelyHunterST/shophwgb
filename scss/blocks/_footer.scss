@@ -1,0 +1,65 @@
+.contacts {
+    height: 448px;
+    background-image: url(..//hwgeekbrains/img/subscribe-background.jpg);
+    background-size: cover;
+
+
+    &__card {
+        display: block;
+        position: absolute;
+        padding-top: 86.6px;
+        padding-left: 328px;
+}
+
+    &__quote {
+        position: relative;
+        top: 50px;
+        left: -120px;
+        width: 359px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+}
+
+    &__subscribe {
+        position: relative;
+        left: 1500px;
+        top: 100px;
+    
+} 
+
+    &__subscription {
+        width: 551px;
+        height: 61px;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 167.2%;
+}
+
+    &__mail {
+        width: 323px;
+        height: 43px;
+        margin-top: 50px;
+        background: #E1E1E1;
+}
+
+    &__sub {
+        width: 100px;
+        height: 50px;
+        color: #FFFFFF;
+        background: #E05C6E;
+        border-radius: 20px;
+}
+}
+.copyright {
+    background-color:  #222222;
+    height: 79px; 
+
+    &__rights {
+        font-size: 16px;
+        line-height: 19px;
+        color: #FBFBFB;
+}
+}
