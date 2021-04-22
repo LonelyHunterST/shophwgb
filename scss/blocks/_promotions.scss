@@ -1,0 +1,59 @@
+.promotions  {
+    &__list {
+    margin: 0 0 63px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+&__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px;
+}
+
+&__title{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+&__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    text-align: center;
+    text-transform: uppercase;
+}
+&__item--woman {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/promotions-woman.jpg) ;
+    background-size: cover;
+}
+
+&__item--man {
+    background-image: url(../img/promotions-man.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+&__item--kids {
+    background-image: url(../img/promotions-kids.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+&__item--accesories {
+    background-image: url(/img/promotions-accesories.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+}
+}
